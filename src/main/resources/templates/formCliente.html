@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Programacion Visual</h1>
+        <nav class="enlace">
+            <h3>Menu:</h3>
+            <ul>
+                <li><a href="/index">Volver al Inicio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="mainF">
+        <h1>Formulario de Datos</h1>
+        <form action="">
+            <label for="dni">DNI:</label>
+            <input id="dni" type="number" required placeholder="Ingrese DNI" name="dni"><br>
+
+            <label for="nombres">Nombre:</label>
+            <input id="nombres" type="text" required placeholder="Ingrese su nombre" name="nombres"><br>
+
+            <label for="apellido">Apellido:</label>
+            <input id="apellido" type="text" required placeholder="Ingrese su apellido" name="apellido"><br>
+
+            <label for="fechaDeNac">Fecha de Nacimiento:</label>
+            <input id="fechaDeNac" type="date" required placeholder="Ingrese Fecha de Nacimiento" name="fechaDeNac"><br>
+
+            <label for="genero">Genero:</label><br>
+            <label for="generoM">Masculino</label>
+            <input id="generoM" type="radio" value="masculino" name="genero" required><br>
+            <label for="generoF">Femenino</label>
+            <input id="generoF" type="radio" value="femenino" name="genero"><br>
+            <label for="generoX">X</label>
+            <input id="generoX" type="radio" value="x" name="genero"><br>
+
+            <label for="correoE">Correo Electronico:</label>
+            <input id="correoE" type="email" required placeholder="Ingrese Correo" name="correo"><br>
+
+            <label for="domicilio">Domicilio:</label>
+            <input id="domicilio" type="text" required placeholder="Ingrese Domicilio" name="domicilio"><br>
+
+            <label for="provincia">Provincia:</label>
+            <select id="provincia" name="provincia" required>
+                <option value="jujuy">Jujuy</option>
+                <option value="salta" selected>Salta</option>
+                <option value="tucuman">Tucuman</option>
+            </select><br>
+
+            <label for="telefono">Telefono:</label>
+            <input id="telefono" type="number" placeholder="Ingrese Número Celular" name="telefono"><br>
+
+            <label>Categorias de Interes</label>
+            <div>
+                <label for="religioso">Religioso</label>
+                <input id="religioso" type="checkbox" name="intereses"><br>
+                <label for="futbol">Futbol</label>
+                <input id="futbol" type="checkbox" name="intereses"><br>
+                <label for="gastronomia">Gastronomía</label>
+                <input id="gastronomia" type="checkbox" name="intereses"><br>
+                <label for="turismo">Turismo</label>
+                <input id="turismo" type="checkbox" name="intereses"><br>
+            </div><br>
+
+            <label for="sugerencia">Sugerencias:</label><br>
+            <textarea id="sugerencia" placeholder="Ingrese sugerencias" name="sugerencias" rows="9" cols="30"></textarea><br>
+
+            <label for="contraseña">Contraseña</label>
+            <input id="contraseña" type="password" required placeholder="Ingrese Contraseña" name="contraseña" minlength="8"><br>
+            <label for="contraseñaConfirmar">Confirme su Contraseña</label>
+            <input id="contraseñaConfirmar" type="password" required placeholder="Ingrese Contraseña Nuevamente" name="contraseñaConfirmar" minlength="8"><br>
+
+            <label for="tyc">Terminos y Condiciones</label>
+            <input id="tyc" type="checkbox" required name="tyc"><br>
+            <label for="info">Recibir Información Relativa a la Empresa</label>
+            <input id="info" type="checkbox" name="info"><br>
+
+            <input type="submit" value="Guardar"><br>
+            <input type="button" value="Cancelar"><br>
+        </form>
+    </main>
+
+    <footer>
+        <h2>Contactos</h2>
+        <p>Contacto: ejemplo@email.com</p>
+        <p>
+            Redes Sociales:
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </p>
+    </footer>
+</body>
+</html>

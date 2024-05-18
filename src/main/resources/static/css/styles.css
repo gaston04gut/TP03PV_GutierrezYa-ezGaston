@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+body{
+	background-color: #f2eeee;
+	
+	font-family: Arial;
+	
+}
+
+footer{
+	background-color:#e8e0e0;
+}
+
+.header{
+background-color: #e8e0e0;	
+}
+
+.enlace{
+	background-color: #e8e0e0;
+	margin: 20px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.main{
+	background-color: #e8e0e0;
+	padding: 20px;
+	margin: 10px;
+	flex: 3;
+}
+
+.mainF{
+	background-color: #e8e0e0;
+	padding: 20px;
+	margin: 10px;
+	font-size: 19px;
+}
+
+.titulos{
+	background-color: #baa6a6;
+}
+
+.aside{
+	flex: 1;
+	padding: 10px;
+	background-color: #e8e0e0;
+}
+
+.container{
+	display: flex;
+	flex-direction:row;
+	width: 100%;  
+}
